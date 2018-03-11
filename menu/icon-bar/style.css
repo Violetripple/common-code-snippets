@@ -1,0 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-bar a {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  transition: all .3s ease;
+}
+
+.icon-bar a:not(.active):hover {
+  background-color: #000;
+}
+
+.icon-bar .active {
+  background-color: #4CAF50;
+}
+/*# sourceMappingURL=style.css.map */

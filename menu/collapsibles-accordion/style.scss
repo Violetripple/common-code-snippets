@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.wrapper {
+    font-family: 'Pacifico', cursive;
+    .accordion {
+        font-family: 'Pacifico', cursive;
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        border: none;
+        outline: none; // This property is very important when you click the button it then has no anoying efect !
+        transition: .4s;
+        display: flex;
+        justify-content: space-between;
+        &:hover {
+            background-color: #ccc;
+        }
+        &::after {
+            content: '\02795';
+            font-size: 13px;
+            color: #777;
+        }
+    }
+    .active {
+        background-color: #ccc;
+        &::after {
+            content: '\2796';
+        }
+    }
+    .panel {
+        padding: 0 18px;
+        max-height: 0;
+        background-color: white;
+        // display: none;
+        overflow: hidden;
+        transition: max-height .5s ease-out;
+    }
+}
