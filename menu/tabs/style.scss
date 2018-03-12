@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.wrapper {
+    font-family: 'Pacifico', cursive;
+    .tab {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        button {
+            flex: auto;
+            font-family: inherit;
+            font-size: 1.5rem;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: .5s;
+            &:not(.active) {
+                background-color: inherit;
+            }
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+        .active {
+            background-color: #ccc;
+        }
+    }
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        border-top: none;
+        text-align: center;
+        animation: fadeEffect 1s;
+        .topright {
+            float: right;
+            cursor: pointer;
+            font-size: 28px;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

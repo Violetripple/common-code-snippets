@@ -4,7 +4,7 @@
 }
 
 .wrapper .accordion {
-  font-family: 'Pacifico', cursive;
+  font-family: inherit;
   background-color: #eee;
   color: #444;
   cursor: pointer;
