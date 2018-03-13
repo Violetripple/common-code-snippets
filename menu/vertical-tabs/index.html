@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="tab">
+            <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+        <div class="content">
+            <div class="tabcontent" id="London">
+                <span class="topright">
+                    <i class="fa fa-times-circle"></i>
+                </span>
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+            <div class="tabcontent" id="Paris">
+                <span class="topright">
+                    <i class="fa fa-times-circle"></i>
+                </span>
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p>
+            </div>
+            <div class="tabcontent" id="Tokyo">
+                <span class="topright">
+                    <i class="fa fa-times-circle"></i>
+                </span>
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

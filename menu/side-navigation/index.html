@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Side Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)">About</a>
+        <a href="javascript:void(0)">Services</a>
+        <a href="javascript:void(0)">Clients</a>
+        <a href="javascript:void(0)">Contact</a>
+    </div>
+    <span onclick="openNav()">&#9776; open</span>
+    <div id="main">
+        “God sees everything,” repeated Wilson. “That’s an advertisement,” Michaelis assured him. Something made him turn away from
+        the window and look back into the room. But Wilson stood there a long time, his face close to the window pane, nodding
+        into the twilight. By six o’clock Michaelis was worn out, and grateful for the sound of a car stopping outside. It
+        was one of the watchers of the night before who had promised to come back, so he cooked breakfast for three, which
+        he and the other man ate together. Wilson was quieter now, and Michaelis went home to sleep; when he awoke four hours
+        later and hurried back to the garage, Wilson was gone.” Excerpt From: F. Scott Fitzgerald. “The Great Gatsby.” iBooks.
+    </div>
+    <script>
+        function openNav() {
+            document.querySelector('#mySidenav').style.width = '250px';
+        }
+        function closeNav() {
+            document.querySelector('#mySidenav').style.width = '0';
+        }
+    </script>
+</body>
+
+</html>

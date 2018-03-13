@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+:root,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: 'Pacifico', cursive;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+}
+
+.wrapper .tab {
+  grid-column: 1;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .tab button {
+  text-align: left;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: .5s;
+}
+
+.wrapper .tab button:not(.active) {
+  background-color: inherit;
+}
+
+.wrapper .tab button:hover {
+  background-color: #ddd;
+}
+
+.wrapper .tab .active {
+  background-color: #ccc;
+}
+
+.wrapper .content {
+  grid-column: 2;
+}
+
+.wrapper .content .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  height: 100%;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  text-align: center;
+  animation: fadeEffect 1s;
+}
+
+.wrapper .content .tabcontent .topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.wrapper .content .tabcontent .topright:hover {
+  color: red;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

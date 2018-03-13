@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+html, body {
+    font-family: 'Pacifico', cursive;
+}
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .5s;
+    a {
+        text-decoration: none;
+        padding: 8px 10px 8px 32px;
+        font-size: 1.2rem;
+        color: #818181;
+        transition: .3s;
+        &:hover {
+            color: #f1f1f1;
+        }
+    }
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        font-size: 2rem;
+        margin-left: 50px;
+    }
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    text-indent: 1rem;
+}
+span {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
