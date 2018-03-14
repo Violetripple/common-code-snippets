@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+html,
+body {
+  padding: 0;
+  outline: 0;
+  line-height: 1.5;
+  font-family: 'Pacifico', cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex: auto;
+}
+
+.row .column {
+  margin-bottom: 1rem;
+  padding: 0 8px;
+}
+
+.row .column .card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row .column .card img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.row .column .card .container {
+  padding: 0.01rem 1rem;
+}
+
+.row .column .card .container h2 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.row .column .card .container:nth-child(4) {
+  font-style: italic;
+}
+
+.row .column .card .container .title {
+  color: grey;
+  opacity: .6;
+}
+
+.row .column .card .container .button {
+  border: none;
+  outline: none;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #616161;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  border-radius: 2px;
+  font-size: 1rem;
+}
+
+.row .column .card .container .button:hover {
+  background-color: #555;
+}
+/*# sourceMappingURL=style.css.map */
