@@ -56,6 +56,7 @@ html, body {
             font-weight: bold;
             transition: .6s ease;
             border-radius: 3px;
+            user-select: none;
             &:hover {
                 background-color: rgba(0, 0, 0, 0.8);
             }

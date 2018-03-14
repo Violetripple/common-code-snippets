@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slideshow Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slide">
+            <div class="numbertext">1 / 6</div>
+            <img src="https://www.w3schools.com/howto/img_woods_wide.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="numbertext">2 / 6</div>
+            <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="numbertext">3 / 6</div>
+            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="numbertext">4 / 6</div>
+            <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="numbertext">5 / 6</div>
+            <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="numbertext">6 / 6</div>
+            <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt="">
+        </div>
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+        <div class="row">
+            <div class="column"><img src="https://www.w3schools.com/howto/img_woods.jpg" alt="The Woods" class="demo" onclick="currentSlide(1)"></div>
+            <div class="column"><img src="https://www.w3schools.com/howto/img_fjords.jpg" alt="Trolltunga, Norway" class="demo" onclick="currentSlide(2)"></div>
+            <div class="column"><img src="https://www.w3schools.com/howto/img_mountains.jpg" alt="Mountains and fjords" class="demo" onclick="currentSlide(3)"></div>
+            <div class="column"><img src="https://www.w3schools.com/howto/img_lights.jpg" alt="Northern Lights" class="demo" onclick="currentSlide(4)"></div>
+            <div class="column"><img src="https://www.w3schools.com/howto/img_nature.jpg" alt="Nature and sunrise" class="demo" onclick="currentSlide(5)"></div>
+            <div class="column"><img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Snowy Mountains" class="demo" onclick="currentSlide(6)"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

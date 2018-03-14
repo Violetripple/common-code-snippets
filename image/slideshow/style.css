@@ -67,6 +67,7 @@ html, body {
   font-weight: bold;
   transition: .6s ease;
   border-radius: 3px;
+  user-select: none;
 }
 
 .wrapper .slideshow-container .prev:hover, .wrapper .slideshow-container .next:hover {
