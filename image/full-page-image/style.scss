@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    height: 100%;
+    color: #777;
+    font: 400 25px/1.8 'Pacifico', cursive;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.bgimg {
+    position: relative;
+    opacity: .7;
+    height: 100%;
+    background: url('https://scontent-hkg3-1.cdninstagram.com/vp/6966e30e73a1111a8d0793950e750855/5B4389D7/t51.2885-15/e35/28753029_150925735604563_9165113309450469376_n.jpg') center/cover no-repeat;
+    .caption {
+        position: absolute;
+        left: 0;
+        top: calc(50% - 25px);
+        width: 100%;
+        text-align: center;
+        .border {
+            display: inline-block;
+            background-color: #111;
+            border-radius: 5px;
+            color: #fff;
+            padding: 10px;
+            letter-spacing: 10px;
+        }
+    }
+}
