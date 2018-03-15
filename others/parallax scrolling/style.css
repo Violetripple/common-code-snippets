@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+  color: #777;
+  font: 400 15px/1.8 'Pacifico', cursive;
+}
+
+.bgimg-1 {
+  background-image: url("image/1.jpg");
+  position: relative;
+  opacity: .65;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("image/2.jpg");
+  position: relative;
+  opacity: .65;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("image/3.jpg");
+  position: relative;
+  opacity: .65;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 400px;
+}
+
+.container {
+  position: relative;
+}
+
+.container .content {
+  text-align: justify;
+  padding: 50px 80px;
+  color: #ddd;
+  background-color: #282e34;
+}
+
+.content_top {
+  text-align: justify;
+  padding: 50px 80px;
+  color: #777;
+  background-color: #fff;
+}
+
+.content_top h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #111;
+}
+
+.content_top p {
+  text-indent: 1rem;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 15px);
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border_md {
+  font-size: 25px;
+  padding: 18px;
+  letter-spacing: 10px;
+  color: #f7f7f7;
+  background-color: transparent;
+}
+
+.caption span.border_hf {
+  font-size: 25px;
+  padding: 18px;
+  letter-spacing: 10px;
+  color: #fff;
+  background-color: #111;
+  border-radius: 3px;
+}
