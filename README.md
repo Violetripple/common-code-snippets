@@ -1,1 +1,25 @@
-# Common reusable code snippets for user interface
+# Common Reusable Code Snippets For User Interface
+
+### Content
+
+- [Menu](#menu)
+  - [Collapsibles Accordion](#collapsibles-accordion)
+  - [Full Page Tabs](#full-page-tabs)
+  - [Full Screen Overlay Navigation](#full-screen-overlay-navigation)
+  - [Icon Bar](#icon-bar)
+  - [Menu Icon](#menu-icon)
+  - [Off Canvas Menu](#off-canvas-menu)
+  - [Side Navigation](#side-navigation)
+  - [Tabs](#tabs)
+  - [Vertical Tabs](#vertical-tabs)
+- [Image](#image)
+  - [Card](#card)
+  - [Full Page Image](#full-page-image)
+  - [Modal Images](#modal-images)
+  - [Slideshow Gallery](#slideshow-gallery)
+  - [Slideshow](#slideshow)
+- [Others](#others)
+  - [Full Screen Video](#full-screen-video)
+  - [Parallax Scrolling](#parallax-scrolling)
+  - [Timeline](#timeline)
+  - [To Do List](#to-do-list)
